@@ -1,0 +1,18 @@
+{
+  "name": "nbis-onboarding",
+  "version": "1.0.0",
+  "description": "Onboarding guide for NBIS System Developers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "http-server ./src -p 8888",
+    "extract": "node ./bin/extractTriples.js --input-type=module",
+    "test": "test"
+  },
+  "author": "nikolas.wise@nbis.se",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "jsdom": "^24.0.0"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "@context": "http://localhost:8888/context.json",
+  "@graph": [
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/beerclub",
+      "skos:prefLabel": "Beer Club",
+      "dc:references": "https://beerclub.nu/"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/benefits"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/bmc-gym"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/bmc"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/book-rooms"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/development-guidelines"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/development"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/eduroam"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "http://localhost:8888/email",
+      "skos:prefLabel": "Email"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/ethernet-in-uppsala"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/fika"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/food"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/forsakringskassan"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/github"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/icm-email"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/icm"
+    },
+    {
+      "@type": "skos:Collection",
+      "@id": "http://localhost:8888/index",
+      "skos:prefLabel": "The Hitchikers Guide to NBIS",
+      "dc:publisher": "https://www.nbis.se/"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/internet"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/jira"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/meetingplace-navet"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/meetings"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/nbis-allhands"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/nbis-email"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/office-supplies"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/parcels"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/parental-leave"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/pen-and-paper"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/primula"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/printing"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/projects"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/redmine"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/scilifelab-email"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/scilifelab"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/sick-leave"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/slack"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/sso"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/staff"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/sysdev-allhands"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/team-giant-sloth"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/team-meercats"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/technical-equipment"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/thunderbird"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/timesheets"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/urdr"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/uu-badge"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/uu-credentials"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/uu-guest-wifi"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/uu-logins"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/vab-leave"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/vacation-leave"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/vocabulary"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/wellness-subsidy"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/whos-responsible-for-what"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/working-hours"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/your-staff-page"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/zenhub"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/zoom"
+    }
+  ]
+}
