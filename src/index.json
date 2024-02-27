@@ -5,6 +5,7 @@
       "@type": "skos:Resource",
       "@id": "http://localhost:8888/beerclub",
       "skos:prefLabel": "Beer Club",
+      "dc:mentions": "http://localhost:8888/meetingplace-navet",
       "dc:references": "https://beerclub.nu/"
     },
     {
@@ -72,7 +73,11 @@
       "@type": "skos:Collection",
       "@id": "http://localhost:8888/index",
       "skos:prefLabel": "The Hitchikers Guide to NBIS",
-      "dc:publisher": "https://www.nbis.se/"
+      "dc:publisher": "https://www.nbis.se/",
+      "skos:memberList": [
+        "/email",
+        "/beerclub"
+      ]
     },
     {
       "@type": "skos:Resource",
@@ -84,7 +89,12 @@
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/meetingplace-navet"
+      "@id": "http://localhost:8888/meetingplace-navet",
+      "skos:prefLabel": "Meetingplace Navet",
+      "skos:altLabel": [
+        "Navet",
+        "SciLiveLab Uppsala"
+      ]
     },
     {
       "@type": "skos:Resource",
@@ -232,7 +242,8 @@
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/zoom"
+      "@id": "http://localhost:8888/zoom",
+      "skos:prefLabel": "Zoom"
     }
   ]
 }

@@ -1,0 +1,9 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  max-width: 42rem;
+  padding: 1rem;
+  margin: auto;
+}

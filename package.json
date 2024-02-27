@@ -7,6 +7,9 @@
   "scripts": {
     "start": "http-server ./src -p 8888",
     "extract": "node ./bin/extractTriples.js --input-type=module",
+    "preautolink": "npm run extract",
+    "autolink": "node ./bin/autolink.js --input-type=module",
+    "postautolink": "npm run extract",
     "test": "test"
   },
   "author": "nikolas.wise@nbis.se",

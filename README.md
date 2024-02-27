@@ -13,3 +13,13 @@ The `src` directory contains all the HTML fragments, a collection of small resou
 The `src/lib` directory contains `.js` and `.css` files for styling and defining components.
 
 A `bin` directory contains the content transformation scripts. These scripts handle basic content indexing and structure data extraction.
+
+## Scripts
+
+### `❯ npm start`
+
+Starts an HTTP Server out of the `src` directory.
+
+### `❯ npm run extract`
+
+Reads the contents of `src/*.html` and transforms all the RDFa content to JSON-LD. Writes the result to `src/index.json`.
