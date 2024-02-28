@@ -4,9 +4,10 @@ const rdfa2json = (htmlString) => {
   let html = parser
     .parseFromString(htmlString, "text/html")
   const propertyNodes = [...html.querySelectorAll('[property]')]
+
   let predicates = propertyNodes.map(node => {
     let obj = {}
-    obj[node.getAttribute("property")] = node.getAttribute('href') || node.textContent.trim()
+    obj[node.getAttribute("property")] = node.getAttribute('href') || node.innerText.trim()
     return obj
   })
   return Object.assign({

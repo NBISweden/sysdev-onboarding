@@ -7,3 +7,21 @@ body {
   padding: 1rem;
   margin: auto;
 }
+
+
+details,
+summary {
+display: inline;
+}
+summary:after,
+show-preview:after {
+content: '❓';
+cursor: pointer;
+}
+dfn {
+position: absolute;
+background-color: white;
+border: 1px solid gray;
+padding: 0.25rem;
+max-width: 25em;
+}

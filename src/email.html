@@ -1,13 +1,44 @@
 <html><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/lib/base.css">
   <title typeof="skos:Concept">
     Email
   </title>
 </head>
 <body>
+
   <h1 property="skos:prefLabel">
     Email
   </h1>
+  <article data-autolink="">
+    <p>
+      You have three diferent email accounts:
+    </p>
 
+    <ol>
+      <li>
+        <summary-card>
+          <a property="dc:hasPart" href="/icm-email"></a><a property="dc:mentions" href="http://localhost:8888/icm">ICM</a> email
+        </summary-card>
+      </li>
+      <li>
+        <summary-card>
+          <a property="dc:hasPart" href="/nbis-email"></a><a property="dc:mentions" href="http://localhost:8888/nbis">NBIS</a> email
+        </summary-card>
+      </li>
+      <li>
+        <summary-card>
+          <a property="dc:hasPart" href="/scilifelab-email"></a><a property="dc:mentions" href="http://localhost:8888/scilifelab">SciLifeLab</a> email
+        </summary-card>
+      </li>
+    </ol>
+
+    <p>
+      While your <a property="dc:mentions" href="http://localhost:8888/scilifelab-email">SciLifeLab Email</a> is a Google Suite account, using <a href="/thunderbird">Thunderbird</a> is recommended to access the other two.
+    </p>
+  </article>
+
+  <script async="" defer="" type="module" src="/lib/show-preview.js"></script>
+  <script async="" defer="" type="module" src="/lib/summary-card.js"></script>
 </body></html>

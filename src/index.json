@@ -39,7 +39,18 @@
     {
       "@type": "skos:Concept",
       "@id": "http://localhost:8888/email",
-      "skos:prefLabel": "Email"
+      "skos:prefLabel": "Email",
+      "dc:hasPart": [
+        "/icm-email",
+        "/nbis-email",
+        "/scilifelab-email"
+      ],
+      "dc:mentions": [
+        "http://localhost:8888/icm",
+        "http://localhost:8888/nbis",
+        "http://localhost:8888/scilifelab",
+        "http://localhost:8888/scilifelab-email"
+      ]
     },
     {
       "@type": "skos:Resource",
@@ -63,17 +74,28 @@
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/icm-email"
+      "@id": "http://localhost:8888/icm-email",
+      "skos:prefLabel": "ICM Email",
+      "dc:summary": "ICM mail in the format: surname.lastname@icm.uu.se with web access at https://mail.uu.se.",
+      "dc:references": "/icm"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/icm"
+      "@id": "http://localhost:8888/icm",
+      "skos:prefLabel": "ICM",
+      "skos:definition": "The Institute for Cell & Molecular Biology at Uppsala Universitet.",
+      "skos:altLabel": [
+        "Institute for Cell & Molecular Biology",
+        "Institutionen för cell- och molekylärbiologi"
+      ],
+      "skos:hiddenLabel": "Institute for Cell and Molecular Biology"
     },
     {
       "@type": "skos:Collection",
       "@id": "http://localhost:8888/index",
       "skos:prefLabel": "The Hitchikers Guide to NBIS",
       "dc:publisher": "https://www.nbis.se/",
+      "dc:mentions": "http://localhost:8888/nbis",
       "skos:memberList": [
         "/email",
         "/beerclub"
@@ -91,6 +113,7 @@
       "@type": "skos:Resource",
       "@id": "http://localhost:8888/meetingplace-navet",
       "skos:prefLabel": "Meetingplace Navet",
+      "dc:mentions": "http://localhost:8888/nbis",
       "skos:altLabel": [
         "Navet",
         "SciLiveLab Uppsala"
@@ -106,7 +129,17 @@
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/nbis-email"
+      "@id": "http://localhost:8888/nbis-email",
+      "skos:prefLabel": "NBIS Email",
+      "dc:summary": "NBIS mail in the format: surname.lastname@nbis.se with web access at https://mail.nbis.se/.",
+      "dc:references": "/nbis"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "http://localhost:8888/nbis",
+      "skos:prefLabel": "NBIS",
+      "skos:definition": "The National Bioinformatics Infrastructure of Sweden is a distributed national bioinformatics infrastructure supporting life sciences in Sweden.",
+      "dc:references": "https://nbis.se/"
     },
     {
       "@type": "skos:Resource",
@@ -142,11 +175,22 @@
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/scilifelab-email"
+      "@id": "http://localhost:8888/scilifelab-email",
+      "skos:prefLabel": "SciLifeLab Email",
+      "dc:summary": "SciLifeLab provides access to GSuite, including Gmail, Google Drive, and Google Calendar. It's also used for logging in to the NBIS website.",
+      "dc:references": "/scilifelab",
+      "dc:mentions": "http://localhost:8888/nbis"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/scilifelab"
+      "@id": "http://localhost:8888/scilifelab",
+      "skos:prefLabel": "SciLifeLab",
+      "skos:definition": "SciLifeLab is a national resource of unique technologies and expertise available to life scientists, closely intertwined with our community of researchers in areas such as biomedicine, ecology and evolution.",
+      "dc:references": "https://www.scilifelab.se/",
+      "dc:mentions": [
+        "http://localhost:8888/nbis",
+        "http://localhost:8888/meetingplace-navet"
+      ]
     },
     {
       "@type": "skos:Resource",
