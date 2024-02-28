@@ -2,7 +2,7 @@
 
 > System Developer Onboarding Document
 
-This is a small, static site for managing NBIS Systtem Developer Onboarding Workflows.
+This is a small, static site for managing NBIS System Developer Onboarding Workflows.
 
 ## What's In Here?
 
@@ -23,3 +23,7 @@ Starts an HTTP Server out of the `src` directory.
 ### `❯ npm run extract`
 
 Reads the contents of `src/*.html` and transforms all the RDFa content to JSON-LD. Writes the result to `src/index.json`.
+
+### `❯ npm run autolink`
+
+Reads the contents of `src/*.html`, and for each node with the `autolink` attribute, searches for any other HTML pages with `prefLabel`, `altLabel`, or `hiddenLabel` terms that match the plain text in that node. If we find matches, swap out the plain text term for a link to the referenced HTML page. Rebuilds the `src/index.json` afterwards to capture the newly formed relationships.
