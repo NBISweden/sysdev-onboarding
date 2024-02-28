@@ -6,7 +6,7 @@ import { JSDOM } from 'jsdom'
 const DOMParser = new JSDOM().window.DOMParser
 const arrayify = target => Array.isArray(target) ? target : [target]
 const diff = (A, B) => A.filter(x => !B.includes(x))
-const origin = 'http://localhost:8888'
+
 
 const terms = new Map()
 graph['@graph'].forEach(node => {
@@ -33,7 +33,7 @@ const link = ({href, text, rel}) => `<a property=${rel} href=${href}>${text}</a>
 
 const insertLinks = (node, self) => {
   console.log(`--------`)
-  const id = `${origin}/${self.split('.')[0]}`
+  const id = `/${self.split('.')[0]}`
   console.log(id)
   console.log(`--------`)
   const links = [...node.querySelectorAll('a')].map(link => link.innerHTML)

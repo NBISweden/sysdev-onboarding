@@ -3,7 +3,7 @@ import path from 'path'
 import { JSDOM } from 'jsdom'
 import { rdfa2json } from './rdfa2json.js'
 
-let origin = 'http://localhost:8888'
+let origin = process.env.origin
 global.DOMParser = new JSDOM().window.DOMParser
 
 const handleError = (err) => {

@@ -1,44 +1,44 @@
 {
-  "@context": "http://localhost:8888/context.json",
+  "@context": "/context.json",
   "@graph": [
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/beerclub",
+      "@id": "/beerclub",
       "skos:prefLabel": "Beer Club",
-      "dc:mentions": "http://localhost:8888/meetingplace-navet",
+      "dc:mentions": "/meetingplace-navet",
       "dc:references": "https://beerclub.nu/"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/benefits"
+      "@id": "/benefits"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/bmc-gym"
+      "@id": "/bmc-gym"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/bmc"
+      "@id": "/bmc"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/book-rooms"
+      "@id": "/book-rooms"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/development-guidelines"
+      "@id": "/development-guidelines"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/development"
+      "@id": "/development"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/eduroam"
+      "@id": "/eduroam"
     },
     {
       "@type": "skos:Concept",
-      "@id": "http://localhost:8888/email",
+      "@id": "/email",
       "skos:prefLabel": "Email",
       "dc:hasPart": [
         "/icm-email",
@@ -46,42 +46,42 @@
         "/scilifelab-email"
       ],
       "dc:mentions": [
-        "http://localhost:8888/icm",
-        "http://localhost:8888/nbis",
-        "http://localhost:8888/scilifelab",
-        "http://localhost:8888/scilifelab-email"
+        "/icm",
+        "/nbis",
+        "/scilifelab",
+        "/scilifelab-email"
       ]
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/ethernet-in-uppsala"
+      "@id": "/ethernet-in-uppsala"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/fika"
+      "@id": "/fika"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/food"
+      "@id": "/food"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/forsakringskassan"
+      "@id": "/forsakringskassan"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/github"
+      "@id": "/github"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/icm-email",
+      "@id": "/icm-email",
       "skos:prefLabel": "ICM Email",
       "dc:summary": "ICM mail in the format: surname.lastname@icm.uu.se with web access at https://mail.uu.se.",
       "dc:references": "/icm"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/icm",
+      "@id": "/icm",
       "skos:prefLabel": "ICM",
       "skos:definition": "The Institute for Cell & Molecular Biology at Uppsala Universitet.",
       "skos:altLabel": [
@@ -92,10 +92,10 @@
     },
     {
       "@type": "skos:Collection",
-      "@id": "http://localhost:8888/index",
+      "@id": "/index",
       "skos:prefLabel": "The Hitchikers Guide to NBIS",
       "dc:publisher": "https://www.nbis.se/",
-      "dc:mentions": "http://localhost:8888/nbis",
+      "dc:mentions": "/nbis",
       "skos:memberList": [
         "/email",
         "/beerclub"
@@ -103,17 +103,17 @@
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/internet"
+      "@id": "/internet"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/jira"
+      "@id": "/jira"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/meetingplace-navet",
+      "@id": "/meetingplace-navet",
       "skos:prefLabel": "Meetingplace Navet",
-      "dc:mentions": "http://localhost:8888/nbis",
+      "dc:mentions": "/nbis",
       "skos:altLabel": [
         "Navet",
         "SciLiveLab Uppsala"
@@ -121,172 +121,174 @@
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/meetings"
+      "@id": "/meetings"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/nbis-allhands"
+      "@id": "/nbis-allhands"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/nbis-email",
+      "@id": "/nbis-email",
       "skos:prefLabel": "NBIS Email",
       "dc:summary": "NBIS mail in the format: surname.lastname@nbis.se with web access at https://mail.nbis.se/.",
       "dc:references": "/nbis"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/nbis",
+      "@id": "/nbis",
       "skos:prefLabel": "NBIS",
       "skos:definition": "The National Bioinformatics Infrastructure of Sweden is a distributed national bioinformatics infrastructure supporting life sciences in Sweden.",
       "dc:references": "https://nbis.se/"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/office-supplies"
+      "@id": "/office-supplies"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/parcels"
+      "@id": "/parcels"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/parental-leave"
+      "@id": "/parental-leave"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/pen-and-paper"
+      "@id": "/pen-and-paper"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/primula"
+      "@id": "/primula"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/printing"
+      "@id": "/printing"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/projects"
+      "@id": "/projects"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/redmine"
+      "@id": "/redmine"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/scilifelab-email",
+      "@id": "/scilifelab-email",
       "skos:prefLabel": "SciLifeLab Email",
       "dc:summary": "SciLifeLab provides access to GSuite, including Gmail, Google Drive, and Google Calendar. It's also used for logging in to the NBIS website.",
-      "dc:references": "/scilifelab",
-      "dc:mentions": "http://localhost:8888/nbis"
-    },
-    {
-      "@type": "skos:Resource",
-      "@id": "http://localhost:8888/scilifelab",
-      "skos:prefLabel": "SciLifeLab",
-      "skos:definition": "SciLifeLab is a national resource of unique technologies and expertise available to life scientists, closely intertwined with our community of researchers in areas such as biomedicine, ecology and evolution.",
-      "dc:references": "https://www.scilifelab.se/",
-      "dc:mentions": [
-        "http://localhost:8888/nbis",
-        "http://localhost:8888/meetingplace-navet"
+      "dc:references": [
+        "/scilifelab",
+        "https://nbis.se"
       ]
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/sick-leave"
+      "@id": "/scilifelab",
+      "skos:prefLabel": "SciLifeLab",
+      "skos:definition": "SciLifeLab is a national resource of unique technologies and expertise available to life scientists, closely intertwined with our community of researchers in areas such as biomedicine, ecology and evolution.",
+      "dc:references": "https://www.scilifelab.se/",
+      "dc:mentions": [
+        "/nbis",
+        "/meetingplace-navet"
+      ]
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/slack"
+      "@id": "/sick-leave"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/sso"
+      "@id": "/slack"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/staff"
+      "@id": "/sso"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/sysdev-allhands"
+      "@id": "/staff"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/team-giant-sloth"
+      "@id": "/sysdev-allhands"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/team-meercats"
+      "@id": "/team-giant-sloth"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/technical-equipment"
+      "@id": "/team-meercats"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/thunderbird"
+      "@id": "/technical-equipment"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/timesheets"
+      "@id": "/thunderbird"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/urdr"
+      "@id": "/timesheets"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/uu-badge"
+      "@id": "/urdr"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/uu-credentials"
+      "@id": "/uu-badge"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/uu-guest-wifi"
+      "@id": "/uu-credentials"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/uu-logins"
+      "@id": "/uu-guest-wifi"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/vab-leave"
+      "@id": "/uu-logins"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/vacation-leave"
+      "@id": "/vab-leave"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/vocabulary"
+      "@id": "/vacation-leave"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/wellness-subsidy"
+      "@id": "/vocabulary"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/whos-responsible-for-what"
+      "@id": "/wellness-subsidy"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/working-hours"
+      "@id": "/whos-responsible-for-what"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/your-staff-page"
+      "@id": "/working-hours"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/zenhub"
+      "@id": "/your-staff-page"
     },
     {
       "@type": "skos:Resource",
-      "@id": "http://localhost:8888/zoom",
+      "@id": "/zenhub"
+    },
+    {
+      "@type": "skos:Resource",
+      "@id": "/zoom",
       "skos:prefLabel": "Zoom"
     }
   ]

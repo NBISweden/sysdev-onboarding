@@ -25,3 +25,21 @@ border: 1px solid gray;
 padding: 0.25rem;
 max-width: 25em;
 }
+
+.summary-card {
+  margin-bottom: 1rem;
+  padding: 0.25rem;
+  padding-right: 1.25rem;
+  position: relative;
+}
+.summary-card p {
+  margin-top: 0;
+}
+.summary-card p:last-of-type {
+  margin-bottom: 0;
+}
+.summary-source {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

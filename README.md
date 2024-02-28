@@ -14,6 +14,10 @@ The `src/lib` directory contains `.js` and `.css` files for styling and defining
 
 A `bin` directory contains the content transformation scripts. These scripts handle basic content indexing and structure data extraction.
 
+## Getting Started
+
+Copy the `.env.example` file over to `.env`. It has the correct `origin` set for local development.
+
 ## Scripts
 
 ### `❯ npm start`

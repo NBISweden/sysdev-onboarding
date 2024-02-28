@@ -12,6 +12,7 @@ class SummaryCard extends HTMLElement {
     const template = `
       <div class="summary-card">
         ${nodes.map(n => n.outerHTML).concat()}
+        <a class="summary-source" href="${uri}">⤴</a>
       </div>
     `
     let html = parser

@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "http-server ./src -p 8888",
-    "extract": "node ./bin/extractTriples.js --input-type=module",
+    "extract": "node --env-file=.env ./bin/extractTriples.js --input-type=module",
     "preautolink": "npm run extract",
-    "autolink": "node ./bin/autolink.js --input-type=module",
+    "autolink": "node --env-file=.env ./bin/autolink.js --input-type=module",
     "postautolink": "npm run extract",
     "test": "test"
   },
